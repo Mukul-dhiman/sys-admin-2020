@@ -1,4 +1,4 @@
-# SNTC Server System Administator Test 2019
+# SNTC Server System Administator Test 2020
 
 This repository has been made specifically for selection of volunteers who can be administrators to the SNTC server now and in the future.
 
