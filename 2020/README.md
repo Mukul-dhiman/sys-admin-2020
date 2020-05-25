@@ -31,7 +31,7 @@ Also, you need to share with us the link to your git repository when asked.
 
 ## Problems
 
-Please find the problems in the [`Problemset`](https://github.com/KamandPrompt/sysadmin-test/tree/master/2019/Problemset) directory in this repository.
+Please find the problems in the [`Problemset`](https://github.com/Milind712000/sys-admin-2020/tree/master/2020/Problemset) directory in this repository.
 
 ## Weightage of problems
 
