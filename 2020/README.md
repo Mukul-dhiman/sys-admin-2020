@@ -35,7 +35,7 @@ Please find the problems in the [`Problemset`](https://github.com/Milind712000/s
 
 ## Weightage of problems
 
-***TOTAL WEIGHTAGE: 555 points***
+***TOTAL WEIGHTAGE: 600 points***
 
 You can find the individual weightage for each problem in the problem statement itself.
 
