@@ -23,16 +23,19 @@ So when one runs your image using `docker run IMAGE_NAME`, this is what they sho
 **Option 2:** You decide to setup the docker container yourself and give him direct access to the container. But your friend is very indecisive and may consume your precious time over making you reconfigure your image configurations again and again.  
 Which option do you choose? How will you execute it?
 
+3. Docker containers are extremely useful for hosting applications. Consider that you are developing a website. You would like to install the Apache HTTP server in a container. But this container must have access to your website files to serve it. The Apache server serves the files in the path `/usr/local/apache2/htdocs/` by default - but this is only accessible from inside the container. You want `/usr/local/apache2/htdocs/` inside the container to point to a location on your system where the website files are located. This way you can continue developing the website on your system, and the Apache container has access to your website. The way to do this is to use Docker volumes. This question is to be done without creating any separate Dockerfile as volumes can be configured using command-line arguments when running a Docker image, and the Apache Docker image is available [here](https://hub.docker.com/_/httpd). 
+
 ## Weightage
 
-1. 170 points
+1. 150 points
 2. 30 points
+3. 20 points
 
 ## Deliverables
 
 In your git repository whose link you will be submitting, make 3 files:
 
-1. `Docker.md`: For Q1 here you need to write the report as to how you did this, what all resources you took help from, and what you learnt. You also need to give a link to your image on `docker store`/`docker hub`. For Q2, you need to write your solution along with the set of terminal commands if necessary.
+1. `Docker.md`: For Q1 here you need to write the report as to how you did this, what all resources you took help from, and what you learnt. You also need to give a link to your image on `docker store`/`docker hub`. For Q2, you need to write your solution along with the set of terminal commands if necessary. For Q3, specify the command used to run an Apache image with the volume as explained above, and also write briefly what you understood about Docker volumes. 
 2. `Dockerimage`: This file should have the name of the image which you set, i.e. `IMAGE_NAME`. For instance, if the name of your image is `abhigyank/testimage`, this should be the only content in this file.
 3. `Docker`: Here you should add your `Dockerfile` or `docker-compose.yml` which you have used to build your image.
 
