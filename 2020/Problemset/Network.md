@@ -7,11 +7,13 @@
 
 2. For `students.iitmandi.ac.in`, you need to find out from what company the domain has been bought. For instance, I bought `abhigyan.xyz` domain name from [Namecheap.me](https://nc.me/). You need to find out from where did the institute buy the domain `students.iitmandi.ac.in`.
 
+3. Find out all the open ports between ports 1-2000 on the [SNTC server](https://iitmandi.co.in/) using [Nmap](https://nmap.org/).   It's possible to find out all other open ports as well, but it takes a long time to scan all possible ports, so we restrict it to first 2000 ports. Nmap is a very powerful tool used for network discovery and security purposes. 
 
 ## Weightage
 
 1. 125 points
 2. 30 points
+3. 45 points
 
 ## Deliverables
 
