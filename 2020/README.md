@@ -25,7 +25,7 @@ Every problem may have a different set of deliverables. You will find the delive
 
 ## Deadlines
 
-The **STRICT DEADLINE** for the assignment is ***13th September, 2020 23:59 hrs***. Any commit in the git repository with a later date will not be considered.
+The **STRICT DEADLINE** for the assignment is ***14th September, 2020 23:59 hrs***. Any commit in the git repository with a later date will not be considered.
 
 Also, you need to share with us the link to your git repository when asked.
 
